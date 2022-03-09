@@ -1,3 +1,7 @@
+a:link, a:visited {
+	color: black;
+}
+
 a:hover {
 	color: green;
 }
@@ -14,8 +18,29 @@ main {
 
 aside {
     flex: 1;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
 }
 
 article {
     flex: 3;
+}
+
+header {
+    height: auto;
+}
+
+ol {
+    border-style: double;
+}
+
+li, footer {
+    text-align: center;
+    line-height: 30px;
+}
+
+iframe {
+    height: 400px;
+    width: 600px;
 }
